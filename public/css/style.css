@@ -24,3 +24,14 @@
 .task-2__item:hover {
   width: 400px;
 }
+.task-3__item {
+  width: 100px;
+  height: 50px;
+  border: 1px solid red;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  margin-top: 5px;
+}
+.task-3__item:hover ~ .task-3__item {
+  width: 400px;
+}

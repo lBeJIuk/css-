@@ -27,3 +27,18 @@
 	}
 }
 
+.task-3__item{
+	width: 100px;
+	height: 50px;
+	border: 1px solid red;
+	transition: width 2s;
+	margin-top: 5px;
+		// &:hover + .task-3__item,&:hover + .task-3__item+.task-3__item,
+		// &:hover + .task-3__item+.task-3__item+.task-3__item,
+		// &:hover + .task-3__item+.task-3__item+.task-3__item+.task-3__item,
+		// &:hover + .task-3__item+.task-3__item+.task-3__item+.task-3__item+.task-3__item,
+		// &:hover + .task-3__item+.task-3__item+.task-3__item+.task-3__item+.task-3__item+.task-3__item,{
+		&:hover ~ .task-3__item{
+		width: 400px;
+	}
+}
