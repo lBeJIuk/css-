@@ -92,3 +92,17 @@
   -webkit-transform: translate(0px, 0px);
           transform: translate(0px, 0px);
 }
+.task-9 {
+  width: 100px;
+  height: 50px;
+  border: 1px solid red;
+  margin: 0 auto;
+  -webkit-transition: -webkit-transform 15s linear;
+  transition: -webkit-transform 15s linear;
+  transition: transform 15s linear;
+  transition: transform 15s linear, -webkit-transform 15s linear;
+}
+.task-9:hover {
+  -webkit-transform: rotate(7200deg);
+          transform: rotate(7200deg);
+}
