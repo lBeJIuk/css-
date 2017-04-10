@@ -63,3 +63,22 @@
 		width: 400px;
 	}
 }
+
+
+.task-7__tip{
+	width: 300px;
+	height: 30px;
+	border: 1px solid red;
+	margin-top: 20px;
+	transform: translate(-400px,0px);
+	transition: transform 1s;
+}
+.task-7__text{
+	width:300px;
+	height: 30px;
+	border: 1px solid red;
+	margin-top: 20px;
+	&:hover + .task-7__tip{
+		transform: translate(300px,0px)
+	}
+}

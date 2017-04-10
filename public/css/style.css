@@ -46,3 +46,25 @@
 .task-4__item:hover ~ .task-4__item:nth-child(5) {
   width: 400px;
 }
+.task-7__tip {
+  width: 300px;
+  height: 30px;
+  border: 1px solid red;
+  margin-top: 20px;
+  -webkit-transform: translate(-400px, 0px);
+          transform: translate(-400px, 0px);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+.task-7__text {
+  width: 300px;
+  height: 30px;
+  border: 1px solid red;
+  margin-top: 20px;
+}
+.task-7__text:hover + .task-7__tip {
+  -webkit-transform: translate(300px, 0px);
+          transform: translate(300px, 0px);
+}
