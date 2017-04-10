@@ -1,0 +1,492 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wrappe",
+				"page-video__wrapper\t page-video.less"
+			],
+			[
+				"page_",
+				"page-video__wrapper\t(photo.html)"
+			],
+			[
+				"con",
+				"controle-panele"
+			],
+			[
+				"spa",
+				"space-around"
+			],
+			[
+				"ju",
+				"justify-content"
+			],
+			[
+				"pa",
+				"page-footer\t page-footer.less"
+			],
+			[
+				"map",
+				"map-wrapper"
+			],
+			[
+				"bor",
+				"border-box"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"item",
+				"item__img-2"
+			],
+			[
+				"i",
+				"item-text__wrapper\t page-reasons.less"
+			],
+			[
+				"ite",
+				"item-text__wrapper"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"fle",
+				"flex-end"
+			],
+			[
+				"align",
+				"align-self"
+			],
+			[
+				"page-na",
+				"page-navigation__wraper\t(index.html)"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"page-navigation__i",
+				"page-navigation__list\t min-style.css"
+			],
+			[
+				"so",
+				"social-link-youtube\t(index.html)"
+			],
+			[
+				"p",
+				"public/"
+			],
+			[
+				"social",
+				"social-links\t(index.html)"
+			],
+			[
+				"page-f",
+				"page-footer__social\t(index.html)"
+			],
+			[
+				"map-",
+				"map-mobile.jpg\tw:320 h:350"
+			],
+			[
+				"page-c",
+				"page-callback.less"
+			],
+			[
+				"border",
+				"border-bottom\t(page-navigation.less)"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"list",
+				"list-style-image"
+			],
+			[
+				"page-reas",
+				"page-reasons__item"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"page-",
+				"page-navigation--closed"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"page",
+				"page-navigatio__togle"
+			],
+			[
+				"fun",
+				"function\t(gulpfile.js)"
+			],
+			[
+				"ma",
+				"mainMenu"
+			],
+			[
+				"sc",
+				"script.js"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"page-navi",
+				"page-navigatio__togle"
+			],
+			[
+				"style",
+				"list-style"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"bg",
+				"bgsz\tbackground-size"
+			],
+			[
+				"page-navigation__",
+				"page-navigation__list\t(index.html)"
+			],
+			[
+				"blo",
+				"blocks/"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"function",
+				"function〔keyword〕"
+			],
+			[
+				"func",
+				"functions\t(SublimeCodeIntel.sublime-settings)"
+			],
+			[
+				"w",
+				"web\t(SublimeCodeIntel.sublime-settings)"
+			],
+			[
+				"win",
+				"window〔variable〕"
+			],
+			[
+				"var",
+				"var〔keyword〕"
+			],
+			[
+				"co",
+				"col\tTag"
+			],
+			[
+				"span",
+				"span\tTag"
+			],
+			[
+				"fe",
+				"feedback-form"
+			],
+			[
+				"la",
+				"class\tAttr"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"fea",
+				"feedback-form__item"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pa rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Indexing Status"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/lbejiuk/dev/css-"
+	],
+	"file_history":
+	[
+		"/home/lbejiuk/dev/css-/.gitignore",
+		"/home/lbejiuk/dev/css-/package.json",
+		"/home/lbejiuk/dev/html.pro/sedona/public/index.html",
+		"/home/lbejiuk/dev/html.pro/sedona/less/blocks/page-footer.less",
+		"/home/lbejiuk/dev/html.pro/sedona/public/photo.html",
+		"/home/lbejiuk/dev/html.pro/sedona/less/blocks/page-galery.less",
+		"/home/lbejiuk/dev/html.pro/sedona/less/blocks/page-video.less",
+		"/home/lbejiuk/dev/html.pro/sedona/public/css/style.css",
+		"/home/lbejiuk/dev/html.pro/sedona/less/style.less",
+		"/home/lbejiuk/dev/html.pro/sedona/less/blocks/page-content.less",
+		"/home/lbejiuk/dev/html.pro/sedona/less/blocks/page-callback.less",
+		"/home/lbejiuk/dev/html.pro/sedona/less/blocks/page-reasons.less",
+		"/home/lbejiuk/dev/html.pro/sedona/less/blocks/page-navigation.less",
+		"/home/lbejiuk/dev/html.pro/sedona/less/blocks/page-header.less",
+		"/home/lbejiuk/dev/html.pro/sedona/less/mixins.less",
+		"/home/lbejiuk/dev/html.pro/sedona/public/form.html",
+		"/home/lbejiuk/dev/html.pro/sedona/public/js/script.js",
+		"/home/lbejiuk/dev/html.pro/sedona/gulpfile.js",
+		"/home/lbejiuk/dev/html.pro/sedona/less/variables.less",
+		"/home/lbejiuk/dev/html.pro/sedona/sedona.sublime-project",
+		"/home/lbejiuk/dev/html.pro/sedona/html.pro/barbershop/less/style.less",
+		"/home/lbejiuk/dev/html.pro/sedona/html.pro/barbershop/public/index.html",
+		"/home/lbejiuk/dev/html.pro/barbershop/public/index.html",
+		"/home/lbejiuk/dev/html.pro/barbershop/less/style.less",
+		"/home/lbejiuk/.config/sublime-text-3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/home/lbejiuk/dev/html.pro/barbershop/public/css/min-style.css",
+		"/home/lbejiuk/dev/html.pro/barbershop/less/mixins.less",
+		"/home/lbejiuk/dev/html.pro/barbershop/public/css/style.css",
+		"/home/lbejiuk/dev/barbershop-pro.sublime-project",
+		"/home/lbejiuk/dev/barbershop-po.sublime-workspace",
+		"/home/lbejiuk/dev/public/index.html",
+		"/home/lbejiuk/dev/html.base/barbershop/public/js/js2.js",
+		"/home/lbejiuk/dev/html.base/barbershop/public/js/script.js",
+		"/home/lbejiuk/dev/html.base/jstest/index.js",
+		"/home/lbejiuk/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/home/lbejiuk/.config/sublime-text-3/Packages/Alignment/Base File.sublime-settings"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"less",
+			"button",
+			"features__element",
+			"item__features",
+			"features__element",
+			"black",
+			"reasons__title",
+			"h2",
+			"h4",
+			"\n.page-reasons__item:nth-child(3), .page-reasons__item:nth-child(4), .page-reasons__item:nth-child(5){",
+			"b",
+			"class",
+			"dage",
+			"p",
+			"chekbox",
+			"index"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "css-.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/dev/html.pro/barbershop/barbershop.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 138.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
