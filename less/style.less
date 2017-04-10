@@ -1,44 +1,65 @@
-
-.task-1{
-	display: inline-block;
-	width: 200px;
-	padding-left: 20px;
-	height: 30px;
+.task-1
+{
 	font-size: 20px;
+
+	display: inline-block;
+
+	width: 200px;
+	height: 30px;
+	padding-left: 20px;
+
 	transition: all 1s;
-	&:focus{
+	&:focus
+	{
 		width: 400px;
-		box-shadow: 0px 0px 2px blue;
-		color:blue;
+
+		color: blue;
+		box-shadow: 0 0 2px blue;
 		text-shadow: 1px 1px 1px blue;
-
 	}
 }
 
 
-.task-2__item{
+.task-2__item
+{
 	width: 100px;
 	height: 50px;
-	border: 1px solid red;
-	transition: width 2s;
 	margin-top: 5px;
-	&:hover{
+
+	transition: width 2s;
+
+	border: 1px solid red;
+	&:hover
+	{
 		width: 400px;
 	}
 }
 
-.task-3__item{
+.task-3__item
+{
 	width: 100px;
 	height: 50px;
-	border: 1px solid red;
-	transition: width 2s;
 	margin-top: 5px;
-		// &:hover + .task-3__item,&:hover + .task-3__item+.task-3__item,
-		// &:hover + .task-3__item+.task-3__item+.task-3__item,
-		// &:hover + .task-3__item+.task-3__item+.task-3__item+.task-3__item,
-		// &:hover + .task-3__item+.task-3__item+.task-3__item+.task-3__item+.task-3__item,
-		// &:hover + .task-3__item+.task-3__item+.task-3__item+.task-3__item+.task-3__item+.task-3__item,{
-		&:hover ~ .task-3__item{
+
+	transition: width 2s;
+
+	border: 1px solid red;
+	&:hover ~ .task-3__item
+	{
+		width: 400px;
+	}
+}
+.task-4__item
+{
+	width: 100px;
+	height: 50px;
+	margin-top: 5px;
+
+	transition: width 2s;
+
+	border: 1px solid red;
+	 &:hover ~ &:nth-child(5)
+	{
 		width: 400px;
 	}
 }
