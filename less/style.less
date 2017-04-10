@@ -1,3 +1,4 @@
+
 .task-1
 {
 	font-size: 20px;
@@ -79,6 +80,43 @@
 	border: 1px solid red;
 	margin-top: 20px;
 	&:hover + .task-7__tip{
-		transform: translate(300px,0px)
+		transform: translate(300px,0px);
 	}
 }
+
+.task-8{
+	width: 100%;
+	overflow: hidden;
+}
+.task-8__box{
+	width:300px;
+	height: 30px;
+	border: 1px solid red;
+	p{
+		padding: 0;
+		margin: 0;
+		padding-left: 20px;
+		transform: translate(500%,0px);
+		transition: transform 3s;
+		// visibility:hidden;
+		// animation-name: example1;
+    // animation-duration: 2s;	
+	}
+
+	&:hover  p{
+				transform: translate(0px,0px);
+
+		// visibility: visible;
+		// animation-name: example;
+    // animation-duration: 4s;
+	}
+}
+
+// @keyframes example {
+		
+//     0% {transform: translate(500%,0px);visibility: visible;}
+// }
+
+// @keyframes example1 {
+//     100% {transform: translate(500%,0px);visibility: visible;}
+// }
