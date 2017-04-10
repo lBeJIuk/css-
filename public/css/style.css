@@ -13,3 +13,14 @@
   color: blue;
   text-shadow: 1px 1px 1px blue;
 }
+.task-2__item {
+  width: 100px;
+  height: 50px;
+  border: 1px solid red;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  margin-top: 5px;
+}
+.task-2__item:hover {
+  width: 400px;
+}
