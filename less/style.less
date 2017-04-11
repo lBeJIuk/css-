@@ -209,3 +209,26 @@
 		transform: skewX(40deg);
 	}
 }
+
+.task-14{
+	margin-top: 100px;
+	margin-left: 40px;
+	width: 400px;
+	height: 40px;
+	border:1px solid red;	
+	position: relative;
+	&::after{
+		content: "";
+		display: inline-block;
+		height: 40px;
+		top: 0;
+		width: 0;
+		left: 0;
+		background-color: red;
+	transition: all 2s;
+	}
+}
+
+.task-14:hover::after{
+	width: 400px;
+}

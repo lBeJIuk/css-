@@ -191,3 +191,25 @@
   -webkit-transform: skewX(40deg);
           transform: skewX(40deg);
 }
+.task-14 {
+  margin-top: 100px;
+  margin-left: 40px;
+  width: 400px;
+  height: 40px;
+  border: 1px solid red;
+  position: relative;
+}
+.task-14::after {
+  content: "";
+  display: inline-block;
+  height: 40px;
+  top: 0;
+  width: 0;
+  left: 0;
+  background-color: red;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+.task-14:hover::after {
+  width: 400px;
+}
