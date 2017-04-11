@@ -106,3 +106,117 @@
   -webkit-transform: rotate(7200deg);
           transform: rotate(7200deg);
 }
+.task-10 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: rgba(100, 100, 100, 0.3);
+}
+.task-10__item--big {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid red;
+  -webkit-transition: -webkit-transform 15s;
+  transition: -webkit-transform 15s;
+  transition: transform 15s;
+  transition: transform 15s, -webkit-transform 15s;
+}
+.task-10__item--small {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid red;
+  -webkit-transition: -webkit-transform 15s;
+  transition: -webkit-transform 15s;
+  transition: transform 15s;
+  transition: transform 15s, -webkit-transform 15s;
+}
+.task-10__item--big:hover + .task-10__item--small,
+.task-10__item--small:hover {
+  -webkit-transform: rotate(720deg);
+          transform: rotate(720deg);
+  -webkit-transform-origin: 50px 50px;
+          transform-origin: 50px 50px;
+  -webkit-transition: -webkit-transform 15s;
+  transition: -webkit-transform 15s;
+  transition: transform 15s;
+  transition: transform 15s, -webkit-transform 15s;
+}
+.next-page {
+  position: fixed;
+  top: 95%;
+  right: 0;
+}
+.task-11 {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 100px;
+  height: 40px;
+  border: 1px solid red;
+  box-shadow: 70px -70px 0px 0px black, -70px 70px 0px 0 black;
+  -webkit-transition: box-shadow 2s;
+  transition: box-shadow 2s;
+}
+.task-11:hover {
+  box-shadow: 70px 70px 0px 0px black,
+								70px 70px 0px 0 black;
+}
+/* .task-11{
+		position: relative;
+		height: 200px;
+		width: 300px;
+		border: 1px solid green;
+	}
+	.task-11__item1{
+	
+		width: 100px;
+		height: 40px;
+		border: 1px solid black;
+		background-color: #fff;
+		margin-top: 50px;
+		margin-left: 140px;
+		z-index: 1;
+	}
+	
+	.task-11__item2{
+		position: absolute;
+		background-color: #000;
+		right: 0;
+		top: 0;
+		width: 100px;
+		height: 40px;
+		transition: all 2s;
+		z-index: 0;
+	}
+	.task-11__item3{
+		z-index: 0;
+		position: absolute;
+		background-color: #000;
+		width: 100px;
+		height: 40px;
+		left: 0;
+		bottom: 0;
+		transition: all 2s;
+	}
+	
+	.task-11__item1:hover ~ div:nth-child(2){
+		background-color: red;
+		top: 100%;
+		margin-top: -40px;
+	
+	}	
+	.task-11__item1:hover  ~ div:nth-child(3){
+		background-color: red;
+		left:100%;
+		margin-left: -100px;
+		margin-top: -40px;
+	
+	}
+	 */
