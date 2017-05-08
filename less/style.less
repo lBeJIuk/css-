@@ -1,119 +1,130 @@
-
+  .next-page{
+    position: fixed;
+    top: 95%;
+    right: 0;
+    
+  }
+    .prev-page{
+    position: fixed;
+    top: 95%;
+    right: 5%;
+    
+  }
 .task-1
 {
-	font-size: 20px;
+  font-size: 20px;
 
-	display: inline-block;
+  display: inline-block;
 
-	width: 200px;
-	height: 30px;
-	padding-left: 20px;
+  width: 200px;
+  height: 30px;
+  padding-left: 20px;
 
-	transition: all 1s;
-	&:focus
-	{
-		width: 400px;
+  transition: all 1s;
+  &:focus
+  {
+    width: 400px;
 
-		color: blue;
-		box-shadow: 0 0 2px blue;
-		text-shadow: 1px 1px 1px blue;
-	}
+    color: blue;
+    box-shadow: 0 0 2px blue;
+    text-shadow: 1px 1px 1px blue;
+  }
 }
 
 
 .task-2__item
 {
-	width: 100px;
-	height: 50px;
-	margin-top: 5px;
+  width: 100px;
+  height: 50px;
+  margin-top: 5px;
 
-	transition: width 2s;
+  transition: width 2s;
 
-	border: 1px solid red;
-	&:hover
-	{
-		width: 400px;
-	}
+  border: 1px solid red;
+  &:hover
+  {
+    width: 400px;
+  }
 }
 
 .task-3__item
 {
-	width: 100px;
-	height: 50px;
-	margin-top: 5px;
+  width: 100px;
+  height: 50px;
+  margin-top: 5px;
 
-	transition: width 2s;
+  transition: width 2s;
 
-	border: 1px solid red;
-	&:hover ~ .task-3__item
-	{
-		width: 400px;
-	}
+  border: 1px solid red;
+  &:hover ~ .task-3__item
+  {
+    width: 400px;
+  }
 }
 .task-4__item
 {
-	width: 100px;
-	height: 50px;
-	margin-top: 5px;
+  width: 100px;
+  height: 50px;
+  margin-top: 5px;
 
-	transition: width 2s;
+  transition: width 2s;
 
-	border: 1px solid red;
-	 &:hover ~ &:nth-child(5)
-	{
-		width: 400px;
-	}
+  border: 1px solid red;
+   &:hover ~ &:nth-child(5)
+  {
+    width: 400px;
+  }
 }
 
 
 .task-7__tip{
-	width: 300px;
-	height: 30px;
-	border: 1px solid red;
-	margin-top: 20px;
-	transform: translate(-400px,0px);
-	transition: transform 1s;
+  width: 300px;
+  height: 30px;
+  border: 1px solid red;
+  margin-top: 20px;
+  transform: translate(-400px,0px);
+  transition: transform 1s;
 }
 .task-7__text{
-	width:300px;
-	height: 30px;
-	border: 1px solid red;
-	margin-top: 20px;
-	&:hover + .task-7__tip{
-		transform: translate(300px,0px);
-	}
+  width:300px;
+  height: 30px;
+  border: 1px solid red;
+  margin-top: 20px;
+  &:hover + .task-7__tip{
+    transform: translate(300px,0px);
+  }
 }
 
 .task-8{
-	width: 100%;
-	overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 .task-8__box{
-	width:300px;
-	height: 30px;
-	border: 1px solid red;
-	p{
-		padding: 0;
-		margin: 0;
-		padding-left: 20px;
-		transform: translate(500%,0px);
-		transition: transform 3s;
-		// visibility:hidden;
-		// animation-name: example1;
-    // animation-duration: 2s;	
-	}
+  width:300px;
+  height: 30px;
+  border: 1px solid red;
+  p{
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    transform: translate(500%,0px);
+    transition: transform 3s;
+    // visibility:hidden;
+    // animation-name: example1;
+    // animation-duration: 2s;  
+  }
 
-	&:hover  p{
-				transform: translate(0px,0px);
+  &:hover  p{
+        transform: translate(0px,0px);
 
-		// visibility: visible;
-		// animation-name: example;
+    // visibility: visible;
+    // animation-name: example;
     // animation-duration: 4s;
-	}
+  }
 }
 
 // @keyframes example {
-		
+    
 //     0% {transform: translate(500%,0px);visibility: visible;}
 // }
 
@@ -121,114 +132,331 @@
 //     100% {transform: translate(500%,0px);visibility: visible;}
 // }
 .task-9{
-	width: 100px;
-	height: 50px;
-	border: 1px solid red;
-	margin: 0 auto;
-		transition: transform 15s linear;
+  width: 100px;
+  height: 50px;
+  border: 1px solid red;
+  margin: 0 auto;
+    transition: transform 15s linear;
 
-	&:hover{
-	transform:rotate(7200deg);
-	}
+  &:hover{
+  transform:rotate(7200deg);
+  }
 }
 
 
 .task-10{
-	width: 100px;
-	height: 100px;
-	position: relative;
-	background-color: rgba(100,100,100,0.3);
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: rgba(100,100,100,0.3);
 }
 .task-10__item--big{
-	position: absolute;
-	top: 25px;
-	left: 25px;
-	width: 50px;
-	height: 50px;
-	border-radius:50%;
-	border: 1px solid red;
-		transition: transform 15s;
-	}
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius:50%;
+  border: 1px solid red;
+    transition: transform 15s;
+  }
 .task-10__item--small{
-	position: absolute;
-	left: 0;
-	top: 0;
-		width: 20px;
-		height: 20px;
-		border-radius:50%;
-		border: 1px solid red;
-		transition: transform 15s;
-	}
+  position: absolute;
+  left: 0;
+  top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    border: 1px solid red;
+    transition: transform 15s;
+  }
 
-	.task-10__item--big:hover + .task-10__item--small , .task-10__item--small:hover{
-		transform: rotate(720deg);
-		transform-origin: 50px 50px;
-		transition: transform 15s;
-	} 
-	.next-page{
-		position: fixed;
-		top: 95%;
-		right: 0;
-		
-	}
+  .task-10__item--big:hover + .task-10__item--small , .task-10__item--small:hover{
+    transform: rotate(720deg);
+    transform-origin: 50px 50px;
+    transition: transform 15s;
+  } 
 
-	.task-11{
-		margin-top: 100px;
-		margin-left: 100px;
-		width: 100px;
-		height: 40px;
-		border: 1px solid red;
-		box-shadow: 70px -70px 0px 0px black,
-								-70px 70px 0px 0 black;
-		transition: box-shadow 2s;
-	}
 
-	.task-11:hover{
-		box-shadow: 70px 70px 0px 0px black,
-								70px 70px 0px 0 black;
-	}
+  .task-11{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid red;
+    box-shadow: 70px -70px 0px 0px black,
+                -70px 70px 0px 0 black;
+    transition: box-shadow 2s;
+  }
+
+  .task-11:hover{
+    box-shadow: 70px 70px 0px 0px black,
+                70px 70px 0px 0 black;
+  }
 
 
 .task-12{
-	margin-top: 150px;
-	width: 100px;
-	height: 100px;
-	transform:rotate(70deg) skewX(45deg);
-	background-color: red;
+  margin-top: 150px;
+  width: 100px;
+  height: 100px;
+  transform:rotate(70deg) skewX(45deg);
+  background-color: red;
 
 }
 
 .task-13{
-	margin-top: 100px;
-	margin-left: 40px;
-	width: 100px;
-	height: 40px;
-	background-color: red;
-	transition: transform 1s;
-	&:hover{
-		transform: skewX(40deg);
-	}
+  margin-top: 100px;
+  margin-left: 40px;
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  transition: transform 1s;
+  &:hover{
+    transform: skewX(40deg);
+  }
 }
 
 .task-14{
-	margin-top: 100px;
-	margin-left: 40px;
-	width: 400px;
-	height: 40px;
-	border:1px solid red;	
-	position: relative;
-	&::after{
-		content: "";
-		display: inline-block;
-		height: 40px;
-		top: 0;
-		width: 0;
-		left: 0;
-		background-color: red;
-	transition: all 2s;
-	}
+  margin-top: 100px;
+  margin-left: 40px;
+  width: 400px;
+  height: 40px;
+  border:1px solid red; 
+  position: relative;
+  &::after{
+    content: "";
+    display: inline-block;
+    height: 40px;
+    top: 0;
+    width: 0;
+    left: 0;
+    background-color: red;
+  transition: all 2s;
+  }
 }
 
 .task-14:hover::after{
-	width: 400px;
+  width: 400px;
+}
+
+
+.task-21{
+  width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  column-count: 4;
+  column-rule: 1px dotted;
+  column-gap: 41px;
+  hyphens: auto;
+}
+
+.task-25{
+  margin: 0 auto;
+  height: 225px;
+  width: 225px;
+  border: 1px solid red;
+  position: relative;
+}
+
+.task-25--ball{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: red;
+  background-image: linear-gradient(to left , #000 , #fff);
+  animation-name: task25_1 ,task25_2, task25_3, task25_4, task25_5, task25_6, task25_7,task25_8,task25_9, task25_10;
+  animation-duration: .7s ,.5s   ,.5s  ,.5s  ,.5s  ,.5s  ,.4s  ,.4s  ,.3s , 2s;
+  animation-delay: 0s,.7s ,1.2s  ,1.7s ,2.2s ,2.7s   ,3.2s ,3.6s ,4s , 4.3s;
+  animation-timing-function: 
+  cubic-bezier(.53,.04,1,1), 
+                          cubic-bezier(.15,.93,1,1),
+  cubic-bezier(.53,.04,1,1) ,
+                          cubic-bezier(.15,.93,1,1),
+  cubic-bezier(.53,.04,1,1) ,
+                          cubic-bezier(.15,.93,1,1),
+  cubic-bezier(.53,.04,1,1) ,
+                          cubic-bezier(.15,.93,1,1),
+  cubic-bezier(.53,.04,1,1),
+  linear ;
+
+}
+
+@step1X : 20px;
+@step1Y : 205px;
+
+    @step2X : 40px;
+    @step2Y : 145px;
+
+@step3X : 60px;
+@step3Y : 205px;
+
+    @step4X : 70px;
+    @step4Y : 170px;
+
+@step5X : 78px;
+@step5Y : 205px;
+
+    @step6X : 83px;
+    @step6Y : 190px;
+
+@step7X : 88px;
+@step7Y : 205px;
+
+    @step8X : 93px;
+    @step8Y : 200px;
+
+@step9X : 99px;
+@step9Y : 205px;
+
+@step10X: 120px;
+@keyframes task25_1{
+  0% {
+    transform: translate(0 ,0);
+  }
+  100% {
+    transform: translateX(@step1X) translateY(@step1Y) rotate(45deg);
+  }
+}
+@keyframes task25_2{
+  0% {
+    transform: translateX(@step1X) translateY(@step1Y) rotate(45deg);
+  }
+  100% {
+    transform: translateX(@step2X) translateY(@step2Y) rotate(90deg);
+  }
+}
+@keyframes task25_3{
+  0% {
+    transform: translateX(@step2X) translateY(@step2Y) rotate(90deg);
+  }
+  100%{
+    transform: translateX(@step3X) translateY(@step3Y) rotate(135deg);
+  }
+}
+@keyframes task25_4{
+  0% {
+    transform: translateX(@step3X) translateY(@step3Y) rotate(135deg);
+  }
+  100%{
+    transform: translateX(@step4X) translateY(@step4Y) rotate(180deg);
+  }
+}
+@keyframes task25_5{
+  0% {
+    transform: translateX(@step4X) translateY(@step4Y) rotate(180deg);
+  }
+  100%{
+    transform: translateX(@step5X) translateY(@step5Y) rotate(225deg);
+  }
+}
+@keyframes task25_6{
+  0% {
+    transform: translateX(@step5X) translateY(@step5Y) rotate(225deg);
+  }
+  100%{
+    transform: translateX(@step6X) translateY(@step6Y) rotate(270deg);
+  }
+}
+@keyframes task25_7{
+  0% {
+    transform: translateX(@step6X) translateY(@step6Y) rotate(270deg);
+  }
+  100%{
+    transform: translateX(@step7X) translateY(@step7Y) rotate(315deg);
+  }
+}
+@keyframes task25_8{
+  0% {
+    transform: translateX(@step7X) translateY(@step7Y) rotate(315deg);
+  }
+  100%{
+    transform: translateX(@step8X) translateY(@step8Y) rotate(360deg);
+  }
+}
+@keyframes task25_9{
+  0% {
+    transform: translateX(@step8X) translateY(@step8Y) rotate(360deg);
+  }
+  100%{
+    transform: translateX(@step9X) translateY(@step9Y) rotate(405deg);
+  }
+}
+@keyframes task25_10{
+  0% {
+    transform: translateX(@step9X) translateY(@step9Y) rotate(405deg);
+  }
+  100%{
+    transform: translateY(@step9Y) translateX(@step10X) rotate(500deg);
+  }
+}
+
+.task-27{
+  display: inline-block;
+  width: 300px;
+  height: 30px;
+  border: 1px solid red;
+  position: relative;
+  &::before{
+    content: "";
+    // width: 100%; 
+    height: 100%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: task27;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes task27{
+  0%{width: 0%;}
+  100%{width: 100%;}
+}
+
+.task-28{
+  display: inline-block;
+  width: 300px;
+  height: 30px;
+  border: 1px solid red;
+  position: relative;
+  &::before{
+    content: "";
+    height: 100%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: task27;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: paused;
+  }
+  &:hover::before{
+    animation-play-state: running;
+    }
+}
+
+
+@keyframes task28{
+  0%{width: 0%;}
+  100%{width: 100%;}
+}
+
+.task-29{
+
+  input[type=email]:invalid, input[type=url]:invalid{
+    box-shadow: 0 0 10px 0 rgba(255,0,0,.9);
+    color: red;
+  }
+  input[type=email]:valid, input[type=url]:valid{
+    box-shadow: 0 0 10px 0 rgba(0,255,0,.9);
+    color: green;
+  }
+  input[type=email]:focus, input[type=url]:focus{
+    outline: none;
+  }
 }
