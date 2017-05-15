@@ -830,3 +830,112 @@ input[type="radio"] + label {
     z-index: 10;
   }
 }
+.task-42 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.task-42__item {
+  border: 1px solid black;
+  width: 100px;
+  margin-bottom: 10px;
+}
+.task-42__item:hover {
+  background-color: green;
+}
+.task-42__item:hover ~ .task-42__item {
+  background-color: red;
+}
+.task-42__item:hover ~ .task-42__item:last-child {
+  background-color: transparent;
+}
+.task-44 {
+  width: 400px;
+  text-align: justify;
+  margin: 0 auto;
+}
+.task-44 a {
+  position: fixed;
+  top: 50px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+  right: 0;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: green;
+  color: #fff;
+  text-decoration: none;
+}
+.task-45 {
+  width: 400px;
+  text-align: justify;
+  margin: 0 auto;
+}
+.task-45 a {
+  position: fixed;
+  top: 200px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+  right: 0;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: green;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+}
+.task-45 a:hover {
+  -webkit-transform: rotate(-90deg) translateY(-220px);
+          transform: rotate(-90deg) translateY(-220px);
+}
+.task-45 a::after {
+  content: attr(data-text);
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 24px;
+  background-color: #000;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  width: 200px;
+  height: 145px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+}
+.task-47 {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  border: 1px solid red;
+  background-image: -webkit-repeating-linear-gradient(right, red 0px, red 1px, transparent 1px, transparent 5px), -webkit-repeating-linear-gradient(bottom, red 0px, red 1px, transparent 1px, transparent 5px);
+  background-image: repeating-linear-gradient(to left, red 0px, red 1px, transparent 1px, transparent 5px), repeating-linear-gradient(to top, red 0px, red 1px, transparent 1px, transparent 5px);
+}
+.task-49 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: num;
+}
+.task-49 li::before {
+  content: counter(num) '. ';
+  counter-increment: num ;
+  color: red;
+}
