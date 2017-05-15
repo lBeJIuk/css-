@@ -460,3 +460,187 @@
     outline: none;
   }
 }
+
+.task-32{
+  text-align: center;
+  .tooltip{
+    color: blue;
+    cursor: pointer;
+    position: relative;
+    &:hover>.tooltip-text{
+      display: inline-block;
+    }
+  }
+  .tooltip-text{
+    color: black;
+    position: absolute;
+    top: -350%;
+    left: 0;
+    min-height: 50px;
+    min-width: 50px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0 0 black;
+    display: none;
+  }
+}
+
+.task-33{
+  text-align: center;
+  .tooltip{
+    color: blue;
+    cursor: pointer;
+    position: relative;
+
+    &:hover::after{
+      content: attr(data-tooltip);
+      position: absolute;
+      width: 100px;
+
+      left: 0;
+      top: -60px;
+      border: 1px solid black;
+      box-shadow: 2px 2px 0 0 black;
+      color: #000;
+      background-color: #fff;
+      // display: inline-block;
+      // height: 100%;
+      // width: 100%;
+    }
+  }
+}
+
+
+
+input[type="radio"]+label,
+{
+  position: relative;
+  padding: 0;
+  font-size: 18px; 
+  line-height: 55px;
+  vertical-align: middle;
+  color: #000;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+
+}
+.task-34{
+  input[type="radio"]{
+    display: none;
+  }
+  input[type="radio"]+label::before,
+  {
+    content:"";
+    position: absolute;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-color: #f2f2f2;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+  }
+  input[type="radio"]:checked+label::before{
+    background-color: #333;
+    height: 21px;
+    width: 21px;
+    border: 17px solid #f2f2f2;
+  }
+}
+
+.task-38{
+  .block{
+    margin-left: 300px;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    animation-name: task38;
+    animation-duration: 12s;
+    // animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;    
+    transform-style: preserve-3d;
+    position: absolute;
+    line-height: 300px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+  }
+  .block1{
+    background-color: red;
+
+  }
+  .block2{
+    // display: none;
+    animation-delay: 3s;
+    background-color: blue;
+  }
+  .block3{
+    // display: none;
+    animation-delay: 6s;
+    background-color: yellow;
+  }
+  .block4{
+    // display: none;
+    animation-delay: 9s;
+
+    background-color: green;
+  }
+}
+
+
+@keyframes task38{
+
+  0%{transform: translateX(0) scaleX(0.01); transform-origin: 0% 50%; z-index: 10;}
+  16.6%{transform: translateX(0) scaleX(1); transform-origin: 0% 50%; z-index: 10;}
+  32.2%{transform: translateX(500px) scaleX(1); transform-origin: 100% 50%;z-index: 10;}
+  49.8%{transform: translateX(500px) scaleX(0.01); transform-origin: 100% 50%; z-index: 10;}
+  66.4%{transform: translateX(500px) scaleX(1); transform-origin: 100% 50%;z-index: 0;}
+  83%{transform: translateX(0) scaleX(1); transform-origin: 0% 50%;z-index: 0;}
+  100%{transform: translateX(0) scaleX(0.01); transform-origin: 0% 50%;z-index: 0;}
+  
+}
+
+
+.task-39{
+  display: flex;
+  flex-direction: column;
+  .block-2, .block-3, .block-1{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    transition: transform 2s;
+    position: relative;
+    z-index: 1;
+    &:hover{
+     transform : scale(2);
+     animation-direction: alternate;
+     animation-duration: 1s;
+     animation-name: task39;
+     animation-fill-mode: forwards;
+    }
+  }
+  .block-1{
+    background-image: url(http://css.phphtml.net/tasks/39/images/1.jpg);
+  }
+  .block-2{
+    background-image: url(http://css.phphtml.net/tasks/39/images/2.jpg);
+  }
+  .block-3{
+    background-image: url(http://css.phphtml.net/tasks/39/images/3.jpg);
+  }
+ }
+
+ @keyframes task39{
+  100%{z-index: 10;}
+ }
+
+
+
+

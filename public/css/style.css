@@ -556,3 +556,277 @@
 .task-29 input[type=url]:focus {
   outline: none;
 }
+.task-32 {
+  text-align: center;
+}
+.task-32 .tooltip {
+  color: blue;
+  cursor: pointer;
+  position: relative;
+}
+.task-32 .tooltip:hover > .tooltip-text {
+  display: inline-block;
+}
+.task-32 .tooltip-text {
+  color: black;
+  position: absolute;
+  top: -350%;
+  left: 0;
+  min-height: 50px;
+  min-width: 50px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 0 0 black;
+  display: none;
+}
+.task-33 {
+  text-align: center;
+}
+.task-33 .tooltip {
+  color: blue;
+  cursor: pointer;
+  position: relative;
+}
+.task-33 .tooltip:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  width: 100px;
+  left: 0;
+  top: -60px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 0 0 black;
+  color: #000;
+  background-color: #fff;
+}
+input[type="radio"] + label {
+  position: relative;
+  padding: 0;
+  font-size: 18px;
+  line-height: 55px;
+  vertical-align: middle;
+  color: #000;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+.task-34 input[type="radio"] {
+  display: none;
+}
+.task-34 input[type="radio"] + label::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background-color: #f2f2f2;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+.task-34 input[type="radio"]:checked + label::before {
+  background-color: #333;
+  height: 21px;
+  width: 21px;
+  border: 17px solid #f2f2f2;
+}
+.task-38 .block {
+  margin-left: 300px;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  -webkit-animation-name: task38;
+          animation-name: task38;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: absolute;
+  line-height: 300px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 40px;
+  color: #333;
+}
+.task-38 .block1 {
+  background-color: red;
+}
+.task-38 .block2 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  background-color: blue;
+}
+.task-38 .block3 {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  background-color: yellow;
+}
+.task-38 .block4 {
+  -webkit-animation-delay: 9s;
+          animation-delay: 9s;
+  background-color: green;
+}
+@-webkit-keyframes task38 {
+  0% {
+    -webkit-transform: translateX(0) scaleX(0.01);
+            transform: translateX(0) scaleX(0.01);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    z-index: 10;
+  }
+  16.6% {
+    -webkit-transform: translateX(0) scaleX(1);
+            transform: translateX(0) scaleX(1);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    z-index: 10;
+  }
+  32.2% {
+    -webkit-transform: translateX(500px) scaleX(1);
+            transform: translateX(500px) scaleX(1);
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    z-index: 10;
+  }
+  49.8% {
+    -webkit-transform: translateX(500px) scaleX(0.01);
+            transform: translateX(500px) scaleX(0.01);
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    z-index: 10;
+  }
+  66.4% {
+    -webkit-transform: translateX(500px) scaleX(1);
+            transform: translateX(500px) scaleX(1);
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    z-index: 0;
+  }
+  83% {
+    -webkit-transform: translateX(0) scaleX(1);
+            transform: translateX(0) scaleX(1);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    z-index: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) scaleX(0.01);
+            transform: translateX(0) scaleX(0.01);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    z-index: 0;
+  }
+}
+@keyframes task38 {
+  0% {
+    -webkit-transform: translateX(0) scaleX(0.01);
+            transform: translateX(0) scaleX(0.01);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    z-index: 10;
+  }
+  16.6% {
+    -webkit-transform: translateX(0) scaleX(1);
+            transform: translateX(0) scaleX(1);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    z-index: 10;
+  }
+  32.2% {
+    -webkit-transform: translateX(500px) scaleX(1);
+            transform: translateX(500px) scaleX(1);
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    z-index: 10;
+  }
+  49.8% {
+    -webkit-transform: translateX(500px) scaleX(0.01);
+            transform: translateX(500px) scaleX(0.01);
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    z-index: 10;
+  }
+  66.4% {
+    -webkit-transform: translateX(500px) scaleX(1);
+            transform: translateX(500px) scaleX(1);
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+    z-index: 0;
+  }
+  83% {
+    -webkit-transform: translateX(0) scaleX(1);
+            transform: translateX(0) scaleX(1);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    z-index: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) scaleX(0.01);
+            transform: translateX(0) scaleX(0.01);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    z-index: 0;
+  }
+}
+.task-39 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.task-39 .block-2,
+.task-39 .block-3,
+.task-39 .block-1 {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+  position: relative;
+  z-index: 1;
+}
+.task-39 .block-2:hover,
+.task-39 .block-3:hover,
+.task-39 .block-1:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: task39;
+          animation-name: task39;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.task-39 .block-1 {
+  background-image: url(http://css.phphtml.net/tasks/39/images/1.jpg);
+}
+.task-39 .block-2 {
+  background-image: url(http://css.phphtml.net/tasks/39/images/2.jpg);
+}
+.task-39 .block-3 {
+  background-image: url(http://css.phphtml.net/tasks/39/images/3.jpg);
+}
+@-webkit-keyframes task39 {
+  100% {
+    z-index: 10;
+  }
+}
+@keyframes task39 {
+  100% {
+    z-index: 10;
+  }
+}
